@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Day 2 Part B</title>
 </head>
+
 <body>
   <h1>Day 2 Part B</h1>
   <h3>Example</h3>
@@ -19,11 +21,19 @@
   <p>Ask for the user's favorite ice cream flavor. And write a message about it.</p>
   <script>
     let favIceCream;
-    // try it! prompt for favorite ice cream
-
-
-    // try it! Write a message about the favorite ice cream flavor.
-    document.write();
+    favIceCream = prompt("What is your Favorite flavor of ice cream?");
+    document.write(`${userName}'s favorite flavor of ice cream is ${favIceCream}.`);
+  </script>
+  <h4>What Ice Cream Flavor Do you like?</h4>
+  <script>
+    let userName2;
+    userName2 = prompt("What is your friend's name?");
+    let flavor1;
+    flavor1 = prompt("What is their first favorite flavor of ice cream?");
+    let flavor2;
+    flavor2 = prompt("What is their second favorite flavor of ice cream?");
+    document.write(`${userName2} likes ${flavor1} and ${flavor2}, sometimes they get a double scoop of both flavors on a cone.`);
   </script>
 </body>
+
 </html>
